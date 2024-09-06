@@ -1,0 +1,51 @@
+{
+  "ModId": "gbfrelink.cheat.easytradeupgrade",
+  "ModName": "Easy Trade & Upgrade",
+  "ModAuthor": "tastyegg",
+  "ModVersion": "1.0.1",
+  "ModDescription": "Trade/Upgrade everything with Knicknack Vouchers. Adds trade for Ambrosia, Mirage Munition, and Curios (T4).",
+  "ModDll": "",
+  "ModIcon": "",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": null,
+  "HasExports": null,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "gbfrelink.cheat.easytrade.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "gbfrelink.utility.manager": {
+          "Config": {
+            "UserName": "WistfulHopes",
+            "RepositoryName": "gbfrelink.utility.manager",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "gbfrelink.utility.manager.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "gbfrelink.utility.manager"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "granblue_fantasy_relink.exe"
+  ],
+  "ProjectUrl": ""
+}
